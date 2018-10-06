@@ -80,3 +80,32 @@ Overall, the students surveyed found significant issues with the current system 
 2. Yes, that would probably be the main reason I would want this service to exist.
 3. Yes, automatically would be ideal.
 
+# Requirements
+
+## Goals:
+•	Provide simpler alternative for keeping up with grades
+•	Provide more information to users than just the grade for a single assignment
+•	Allow for as many customization options as possible
+•	Simple inputs and intuitive user interface
+	
+## Functionality:
+•	Find secure method for linking student account to a cell phone
+•	Options for determining the data being output
+o	How many grades do you want returned?
+	Set to return the grades from the past 2 weeks
+	Set to return 5 most recently input grades
+o	Percentage of grade the category of the assignment is worth (e.g. quizzes are 15%)
+•	Potential concerns to handle
+o	Student sends invalid class identifier (e.g. misspells word or uses wrong number)
+o	Student drops a course, or the semester ends
+•	Implement option for automatically generated messages when new grades are posted
+
+# Development Approach
+
+## User Perspective:
+After conducting interviews, I discovered that potential users of this application are seeking a simple way to keep up with their grades without the hassle of navigating Brightspace. They find the current system to takes way too many clicks to find a gradebook and limited information about their semester progress without looking towards the syllabus manually.
+
+## Development Summary/Rationale:
+This new application will become an extension of Brightspace in which you simply add a phone number to your account when logged in that you can then send messages from. This ensures security of accounts. During development, it is important to consider minimizing the need for excessive input to receive the desired output. For this reason, this program will simply take in a message with the class identifier (e.g. CS 1101-01) and return the ‘x’ most recent graded assignments as applicable. This number will be defaulted to 5 but can be raised or lowered at the discretion of the user. When testing it is important to make sure the message is easily legible and has the appropriate information based off user preferences. Each part of this application will be developed in an individual function to ensure unit testing is simple and efficient. In terms of maintaining this application, consistently surveying users is critical to pointing out the current issues and brainstorming potential solutions. Having too much or too little information or required input defeats the purpose of this project. Overall, the goal of this application is to be as simple and customizable as possible.
+
+
