@@ -90,7 +90,7 @@ Overall, the students surveyed found significant issues with the current system 
 	
 ## Functionality
 1. Find secure method for linking student account to a cell phone
-⋅2. Options for determining the data being output
+2. Options for determining the data being output
 	+ How many grades do you want returned?
 	+ Set to return the grades from the past 2 weeks
 	+ Set to return 5 most recently input grades
