@@ -90,10 +90,11 @@ Overall, the students surveyed found significant issues with the current system 
 	
 ## Functionality
 1. Find secure method for linking student account to a cell phone
-2. Options for determining the data being outputHow many grades do you want returned?
-	a. Set to return the grades from the past 2 weeks
-	b. Set to return 5 most recently input grades
-	c. Percentage of grade the category of the assignment is worth (e.g. quizzes are 15%)
+2. Options for determining the data being output
+	a. How many grades do you want returned?
+	b. Set to return the grades from the past 2 weeks
+	c. Set to return 5 most recently input grades
+	d. Percentage of grade the category of the assignment is worth (e.g. quizzes are 15%)
 3. Potential concerns to handle
 	a. Student sends invalid class identifier (e.g. misspells word or uses wrong number)
 	b. Student drops a course, or the semester ends
