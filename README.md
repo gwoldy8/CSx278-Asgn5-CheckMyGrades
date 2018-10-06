@@ -83,22 +83,21 @@ Overall, the students surveyed found significant issues with the current system 
 # Requirements
 
 ## Goals
-•	Provide simpler alternative for keeping up with grades
-•	Provide more information to users than just the grade for a single assignment
-•	Allow for as many customization options as possible
-•	Simple inputs and intuitive user interface
+1. Provide simpler alternative for keeping up with grades
+2. Provide more information to users than just the grade for a single assignment
+3. Allow for as many customization options as possible
+4. Simple inputs and intuitive user interface
 	
 ## Functionality
-•	Find secure method for linking student account to a cell phone
-•	Options for determining the data being output
-o	How many grades do you want returned?
-	Set to return the grades from the past 2 weeks
-	Set to return 5 most recently input grades
-o	Percentage of grade the category of the assignment is worth (e.g. quizzes are 15%)
-•	Potential concerns to handle
-o	Student sends invalid class identifier (e.g. misspells word or uses wrong number)
-o	Student drops a course, or the semester ends
-•	Implement option for automatically generated messages when new grades are posted
+1. Find secure method for linking student account to a cell phone
+2. Options for determining the data being outputHow many grades do you want returned?
+	a. Set to return the grades from the past 2 weeks
+	b. Set to return 5 most recently input grades
+	c. Percentage of grade the category of the assignment is worth (e.g. quizzes are 15%)
+3. Potential concerns to handle
+	a. Student sends invalid class identifier (e.g. misspells word or uses wrong number)
+	b. Student drops a course, or the semester ends
+4. Implement option for automatically generated messages when new grades are posted
 
 # Development Approach
 
