@@ -98,17 +98,11 @@
 (defn parse-int [s]
  (if (nil? s) 5 (int s)))
 
-;;(str "You are not enrolled in " (first args));;(if contains? my-courses (first args))
-
-
-;; Prints all classes student is in
-(defn get-course [{:keys [args cmd]}] (str "Course: " (first args)
-                                            "\nInstructor: " (get-in my-courses [(first args) :instructor])
-                                            "\nRecent Grades: " (take-last (parse-int (second args)) (get-in my-courses [(first args) :grades]))))
-
-
-;; Prints all classes student is in
-;; (defn get-courses [pmsg] (format-course pmsg))
+;; Prints grades when a course name is given
+(defn get-course [{:keys [args cmd]}] (if (contains? my-courses (first args))
+                                         (str "Course: " (first args) "\nInstructor: " (get-in my-courses [(first args) :instructor])
+                                            "\nRecent Grades: " (take-last (parse-int (second args)) (get-in my-courses [(first args) :grades])))
+                                         (str "You are not enrolled in: " (first args))))
 
 ;; Asgn 1.
 ;;
